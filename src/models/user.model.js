@@ -41,7 +41,7 @@ const userSchema = new Schema({
         maxlength:[10, "name too long"]
 
     },
-    Phone:{
+    phone:{
         type: Number,
         required: true,
         match: [phoneRegex, "your phone number shouldn't contain letters"]
